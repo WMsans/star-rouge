@@ -33,12 +33,20 @@ One combat encounter between chariots in an arena. Ends when a chariot's HP hits
 _Avoid_: Match, battle, round (when meaning the combat encounter)
 
 **Arena**:
-The side-view combat space whose terrain is a falling-everything material simulation.
+The side-view combat space — one fixed bounded area with side walls and open sky — whose terrain is a falling-everything material simulation over bedrock.
 _Avoid_: Level, map, stage, battlefield
+
+**Bedrock**:
+The permanent floor under an arena's material simulation. Chariots never fall through it.
+_Avoid_: World floor, kill plane, bottom boundary (when meaning the solid floor)
 
 **Material simulation**:
 The Noita-style falling-everything cellular simulation that makes up arena terrain — powders, liquids, fires, solids, and other materials, not sand alone.
 _Avoid_: Sand simulation, sand, terrain system (when meaning the multi-material sim)
+
+**Acid rain**:
+The arena anti-stall hazard that begins when a fight drags past its target length, forcing a resolution.
+_Avoid_: Sudden death, timer damage, hazard rain (when meaning this specific backstop)
 
 **Scavenge**:
 The between-fight session where the player attaches props, rebinds triggers, and takes other run options before the next fight.

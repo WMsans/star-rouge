@@ -58,4 +58,4 @@ These steer later tickets but are not yardsticks every decision must answer:
 - **Second-run hook.** A run should leave the player with "next time, X with Y" — untried combos, not meta-unlocks alone.
 - **Restart tax.** ~2 minutes to a working machine that differs from last run; ~15 minutes to competence (from vehicle-builder prior art).
 - **No sold fantasy.** Identity order used while deciding (mad engineer > demolition > gladiator) is internal orientation only. The pitch and GDD do not sell a role-fantasy; fun is mechanical.
-- **View.** 2D side-view — not top-down, not committed to side-scrolling. Camera/arena shape remains open on [The fight: arena shape, camera, and how two chariots engage](https://github.com/WMsans/star-rouge/issues/6).
+- **View.** 2D side-view — not top-down. Camera and arena shape locked in [The Fight](01-the-fight.md): Smash-style midpoint+zoom camera, fixed bounded arena with side walls and open sky.
