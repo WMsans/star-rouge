@@ -10,7 +10,7 @@ Every later design and technical decision must justify itself against the pillar
 
 **One-liner.** A 2D side-view roguelike where you bolt weapons onto a chariot and fight in a fully destructible, Noita-style falling-everything arena — in five buttons.
 
-**The loop.** Fight → scavenge → rebuild → fight. Between bouts you attach props, bind their actions to two triggers, and roll out again. A fight ends when a chariot's HP hits zero — yours or theirs. The arena can kill, and that counts.
+**The loop.** Fight → scavenge → rebuild → fight. Between bouts you attach props, bind their actions to two triggers, and roll out again. A fight ends when a chariot's HP hits zero — yours or theirs. The arena can kill (hazards, not burial), and that counts. HP does not carry between fights.
 
 **What you do in a fight.** Drive left, drive right, jump (wheels push down), trigger 1, trigger 2. No more inputs. Depth is what you bound before the gate opened.
 

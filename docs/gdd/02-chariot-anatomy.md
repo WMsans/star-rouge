@@ -67,7 +67,7 @@ Enough props to fill five slots differently across runs and to prove both pipeli
 | **Oil drip** | Leaves slick material. |
 | **Flamethrower** | Spray / ignites flammable material. |
 | **Bomb drop** | Places a charge; crater and knockabout. |
-| **Plate** | Passive mass/armor; changes shove and survivability. |
+| **Plate** | Passive mass/shove plus modest DR vs prop damage only (not hazards). No max-HP buff; does not break. See [HP and Damage](03-hp-and-damage.md). |
 
 ### Starter fill (Silver Chariot)
 
@@ -75,9 +75,10 @@ Enough props to fill five slots differently across runs and to prove both pipeli
 
 ## What this does *not* settle
 
-- **HP and destruction** of body vs props — [HP model under full destructibility](https://github.com/WMsans/star-rouge/issues/8).
 - **Trigger binding rules** (how actions map to the two triggers, including meteor-hammer brake and always-on props) — [Prop actions and trigger binding](https://github.com/WMsans/star-rouge/issues/9).
 - **Building-phase UX** (soft-warn presentation, empty-slot affordances) — [Building-phase UX](https://github.com/WMsans/star-rouge/issues/10).
 - **Material set** oil/flame/etc. speak to — [Arena design, hazards, and sand material taxonomy](https://github.com/WMsans/star-rouge/issues/14).
-- **Physics representation** (single rigid body vs jointed props, how slot transforms become colliders) — technical tickets after HP.
+- **Physics representation** (single rigid body vs jointed props, how slot transforms become colliders) — technical follow-on; gameplay constraint from [HP and Damage](03-hp-and-damage.md): props stay bolted, silhouette intact while alive, damage bleeds **sand-shed** into the sim.
 - **Bodies beyond Silver Chariot** — deferred; rule only.
+
+HP, lethal sources, Plate DR, and sand-shed are locked in [HP and Damage](03-hp-and-damage.md).

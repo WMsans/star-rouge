@@ -8,7 +8,7 @@ Playable throwaway that locked the feel: branch `prototype/fight-feel` (`./scrip
 
 ## What a fight is
 
-One combat encounter between two chariots in a single arena. Ends when either side's HP hits zero. Arena kills count. Normal fights last **30–60 seconds**.
+One combat encounter between two chariots in a single arena. Ends when either side's HP hits zero. Arena kills count (via **hazard materials** / acid rain, not burial — see [HP and Damage](03-hp-and-damage.md)). Normal fights last **30–60 seconds**. Both sides start at full HP every fight.
 
 ## Arena shape
 

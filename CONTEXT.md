@@ -61,5 +61,9 @@ The between-fight session where the player attaches props, rebinds triggers, and
 _Avoid_: Shop, draft, reward screen, intermission
 
 **HP**:
-The win/lose meter for a chariot. A fight ends when one side's HP hits zero.
-_Avoid_: Health pool, life, durability (when meaning the win/lose condition)
+A single per-fight body pool on a chariot — the only win/lose meter. Always full at fight start; props have no HP of their own.
+_Avoid_: Health pool, life, durability (when meaning the win/lose condition), prop HP, ablative armor
+
+**Sand-shed**:
+Inert debris powder emitted into the material simulation from a chariot that just lost HP — scaled to the loss, plus hit juice. Not rigid scrap and not a shrinking collider.
+_Avoid_: Blood particles (when meaning sim cells), gibs, prop debris, chip damage (when meaning gameplay prop loss)
