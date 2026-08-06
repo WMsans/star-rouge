@@ -9,16 +9,24 @@ The player's (or enemy's) machine — a body with slots that hold props.
 _Avoid_: Vehicle, car, cart, mech
 
 **Body**:
-The chassis of a chariot; it carries the slots.
-_Avoid_: Frame, hull, base (when meaning the chassis)
+A shaped chassis silhouette that carries a fixed set of named slots at concrete local transforms. Slot count and layout are per body type; a body does not grow slots mid-run.
+_Avoid_: Frame, hull, base (when meaning the chassis), grid, brick build
+
+**Silver Chariot**:
+The starter body — five slots (two ground, two front, one top). The only body in the prototype.
+_Avoid_: Default chassis, starter frame
 
 **Slot**:
-A mount point on a body that holds one prop. Position is physical, not nominal.
-_Avoid_: Socket, hardpoint, attachment point
+A named mount point on a body that holds at most one prop. Slots are universal (any prop, any slot). Position is physical, not nominal.
+_Avoid_: Socket, hardpoint, attachment point, mount (as a noun competing with Slot)
 
 **Prop**:
-A part bolted into a slot — weapon, tool, wheel, passive piece, or similar.
-_Avoid_: Part, item, module, component, attachment
+A part bolted into a slot, defined by tags and behavior rather than by a formal category enum.
+_Avoid_: Part, item, module, component, attachment, weapon (as the umbrella term)
+
+**Prop tag**:
+A labeled capability or property on a prop (can-drive, can-jump, uses-trigger, material interaction, and similar). Mobility and role come from tags, not from slot types or prop categories.
+_Avoid_: Prop category, prop type, item class
 
 **Build**:
 The player's current chariot configuration — body plus mounted props and their trigger bindings. The primary source of fun.
